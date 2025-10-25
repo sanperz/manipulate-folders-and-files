@@ -1,7 +1,7 @@
 # DEFINE MAIN FOLDER CONTAINING FILES ##########################################
 main_folder <- "C:/Users/ *ADD PATH TO FOLDER CONTATINING FILES* "  # Change this to your actual path
 batch_size <- 10000  # Number of files desired per batch
-output_folder_prefix <- "CE_Batch_"  # Prefix for batch folders
+output_folder_prefix <- "_Batch_"  # Prefix for batch folders
 
 # GET LIST OF ALL FILES IN MAIN FOLDER #########################################
 all_files <- list.files(main_folder, full.names = TRUE)
@@ -31,4 +31,5 @@ for (i in 1:num_batches) {
 }
 
 message("Folder splitting completed.")
+
 
