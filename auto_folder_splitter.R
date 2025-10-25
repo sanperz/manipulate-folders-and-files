@@ -1,5 +1,5 @@
 # DEFINE MAIN FOLDER CONTAINING FILES ##########################################
-main_folder <- "C:/Users/Sandra/OneDrive/Desktop/CE Data Sept 25/Cleaned Data"  # Change this to your actual path
+main_folder <- "C:/Users/ *ADD PATH TO FOLDER CONTATINING FILES* "  # Change this to your actual path
 batch_size <- 10000  # Number of files desired per batch
 output_folder_prefix <- "CE_Batch_"  # Prefix for batch folders
 
